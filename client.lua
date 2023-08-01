@@ -13,37 +13,6 @@ local menuOptions = {
         
             local allowedVehicles = {
                 [`FBI2`] = true,
-                [`dev1`] = true,
-                [`dev2`] = true,
-                [`dev3`] = true,
-                [`dev4`] = true,
-                [`admin4`] = true,
-                [`cid1`] = true,
-                [`cid2`] = true,
-                [`cid3`] = true,
-                [`cid4`] = true,
-                [`cid5`] = true,
-                [`cid8`] = true,
-                [`arv7`] = true,
-                [`arv8`] = true,
-                [`arv11`] = true,
-                [`arv12`] = true,
-                [`arv13`] = true,
-                [`nhs4`] = true,
-                [`nhs13`] = true,
-                [`dsu6`] = true,
-                [`don1`] = true,
-                [`don3`] = true,
-                [`rpu6`] = true,
-                [`rpu9`] = true,
-                [`hfb6`] = true,
-                [`npt11`] = true,
-                [`police4`] = true,
-                [`policeold2`] = true,
-                [`sheriff2`] = true,
-                [`cid9`] = true,
-                [`gold`] = true,
-                [`sheriff2`] = true
             }
 
             return allowedVehicles[GetEntityModel(GetVehiclePedIsIn(PlayerPedId(), false))]
